@@ -1,0 +1,21 @@
+{
+  "expo": {
+    "name": "mobileauth",
+    "slug": "mobileauth",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "mobileauth",
+    "userInterfaceStyle": "light",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#ffffff"
+      }
+    }
+  }
+}
