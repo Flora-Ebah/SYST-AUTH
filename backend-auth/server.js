@@ -28,7 +28,7 @@ const createDefaultUsers = async () => {
   const count = await User.countDocuments();
   if (count === 0) {
     const defaultUsers = [
-      { username: "user1", password: await bcrypt.hash("password1", 10), pin: await bcrypt.hash("1234", 10) },
+      { username: "user1", password: await bcrypt.hash("password1", 10), pin: await bcrypt.hash("12345", 10) },
       { username: "user2", password: await bcrypt.hash("password2", 10), pin: await bcrypt.hash("56782", 10) },
     ];
     await User.insertMany(defaultUsers);
